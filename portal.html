@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal</title>
+
+    <!-- stylesheet -->
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+   <!-- header start -->
+   <header id="home">
+    <!-- top-header -->
+    <div class="top-header">
+        <div class="container">
+            <div class="top-header-text">
+                <p>If you require any further information on COVID-19, visit the <a href="#">sacoronavirus.co.za</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- middle header -->
+    <div class="middle-header">
+        <div class="container">
+            <div class="middle-menu">
+                <div class="middle-menu-text">
+                    <i class="fas fa-phone-alt"><a href="#">+27 10 335 1090</a></i>
+                    <i class="far fa-envelope"><a href="#">info@irerep.co.za</a></i>
+                </div>
+                <div class="right-middle-menu">
+                    <div class="right-middle-menuber">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+
+                        <div class="search-box">
+                            <input type="search" name="" id="">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- bottom header -->
+        <nav class="container bottom header">
+            <div class="logo">
+                <img src="img/logo/logo.png" alt="">
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <ul class="navigation" id="nav">
+                <li><a href="#home">ABOUT</a></li>
+                <li><a href="#services">ELEMENTS</a></li>
+                <li><a href="#about">PRESS</a></li>
+                <li><a href="#work">CONTACT</a></li>
+            </ul>
+            <div class="log-icon">
+                <div class="log">
+                    <a href="#" class="header-btn">Logout</a>
+                    <div class="action">
+                      
+                            <img src="img/user-placeholder.png" onclick="menuToggle();" alt="">
+                        
+                        <div class="menu">
+                            <div class="top-profile">
+                                <img src="img/user-placeholder.png" alt="">
+                                <div class="profile-ti">
+                                    <h5>Name Surename</h5>
+                                    <p>Company</p>
+                                </div>
+                            </div>
+                            <div class="profile-menu">
+                                <div class="single-profile">
+                                    <div class="profile-icon">
+                                        <i class="fas fa-user-circle"></i>
+                                        <a href="#">Profile Overview</a>
+                                    </div>
+                                    <i class="fas fa-angle-right"></i>
+                                </div>
+                                <div class="single-profile">
+                                    <div class="profile-icon">
+                                        <i class="fas fa-cog"></i>
+                                        <a href="#">Settings</a>
+                                    </div>
+                                    <i class="fas fa-angle-right"></i>
+                                </div>
+                                <div class="single-profile">
+                                    <div class="profile-icon">
+                                        <i class="fas fa-question-circle"></i>
+                                        <a href="#">Help & Support</a>
+                                    </div>
+                                    <i class="fas fa-angle-right"></i>
+                                </div>
+                                <div class="single-profile">
+                                    <div class="profile-icon">
+                                        <i class="fas fa-sign-out-alt"></i>
+                                        <a href="#">Logout</a>
+                                    </div>
+                                    <i class="fas fa-angle-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="toggleButton" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+        </nav>
+</header>
+   <!-- header end -->
+    <main>
+        <section class="register">
+            <div class="register-area ">
+           <div class="register-content">
+                    <div class="register-box container">
+                    <div class="portal-logo">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="register-input-area">
+                        <h2>Register to Access Portal</h2>
+                        <div class="register-input">
+                            <input type="email" name="" placeholder="Username/Email" id="">
+                        </div>
+                        <div class="register-input">
+                            <input type="password" name="" placeholder="Password" id="">
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                             Remember Me
+                            </label>
+                          </div>
+                        <div class="regester-btn">
+                            <button>Register</button>
+                        </div>
+                    </div>
+                </div>
+                <p>Do you have an account? <span>Login now</span></p>
+           </div>
+            </div>
+        </section>
+        <section class="procurement">
+            <div class="procurement-area">
+              <div class="center ">
+                <div class="center-title">
+                    <h2>Procurement Center</h2>
+                </div>
+         
+              </div>
+              <div class="notice-fl container">
+                <div class="notice-left-fl">
+                <div class="single-notice">
+                    <div class="notice-text">
+                        <h3>Notice & Alerts</h3>
+                        <p>NOtices of new tender and other procurement related information</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="single-notice">
+                    <div class="notice-text">
+                        <h3>Notice & Alerts</h3>
+                        <p>NOtices of new tender and other procurement related information</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="single-notice">
+                    <div class="notice-text">
+                        <h3>Notice & Alerts</h3>
+                        <p>NOtices of new tender and other procurement related information</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+                </div>
+                <div class="notice-right">
+                    <h3>Notices & Alerts</h3>
+                    <table>
+                        <tr>
+                            <th>CATEGORY</th>
+                            <th>DOCUMENT LINK</th>	
+                            
+                        </tr>
+                        <tr>
+                            <td>RFI iREREP</td>
+                            <td class="td-text">Request for Information - IREREP Programme.pdf</td>	
+                        </tr>
+                        <tr>
+                            <td>RFI iREREP</td>
+                            <td class="td-text">Request for Information - IREREP Programme.pdf</td>	
+                        </tr>
+                        <tr>
+                            <td>RFI iREREP</td>
+                            <td class="td-text">Request for Information - IREREP Programme.pdf</td>	
+                        </tr>
+                        <tr>
+                            <td>RFI iREREP</td>
+                            <td class="td-text">Request for Information - IREREP Programme.pdf</td>	
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            </div>
+        </section>
+       </main>
+    <!-- footer start -->
+    <footer>
+        <div id="footer-area ">
+            <div class=" footer">
+                <nav class="container footer-hide">
+                    <div class="footer-logo">
+                        <img src="./img/footer-logo.png" alt="">
+                    </div>
+                  
+                    <ul class="footer-navigation" id="footer-nav">
+                        <li><a href="#home">ABOUT</a></li>
+                        <li><a href="#services">ELEMENTS</a></li>
+                        <li><a href="#about">PRESS</a></li>
+                        <li><a href="#work">CONTACT</a></li>
+                    </ul>
+                    <div class="right-middle-menu">
+                        <div class="footer-right-middle-menuber">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                </nav>
+
+                <nav class="container responsive-footer">
+                    <div class="ipad-logo">
+                        <img src="./img/ipad-logo.png" alt="">
+                    </div>
+                    <div class="dropdown">
+                        <div class="toggleButton dropdown-toggle" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="bar4"></div>
+                            <div class="bar5"></div>
+                            <div class="bar6"></div>
+                        </div>
+                        <ul class="dropdown-menu down-menu" aria-labelledby="dropdownMenu2">
+                          <li><button class="dropdown-item fw" type="button">ABOUT</button></li>
+                          <li><button class="dropdown-item fw" type="button">ELEMENTS</button></li>
+                          <li><button class="dropdown-item fw" type="button">PRESS</button></li>
+                          <li><button class="dropdown-item fw" type="button">CONTACT</button></li>
+                        </ul>
+                      </div>
+                </nav>
+            </div>
+        </div>
+            </div>
+        </div>
+        <!-- footer-copyrights -->
+        <div class="copyrights footer-bottom">
+            <div class="copyrights container">
+                <div id="footer-copyrights">
+                    <p>Copyright © 2021 Integrated Renewable Energy and Resource Efficiency Program. All rights
+                        reserved.</p>
+                </div>
+            </div>
+        </div>
+        <a href="#home" id="back-to-top" class="back-to-top" title="home" role="button">
+            <!-- <i class="fa fa-angle-up"></i> -->
+        </a>
+    </footer>
+    <!-- footer end -->
+
+
+    <!-- js here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js">   
+    </script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript">
+        // $('.slider-active').slick();
+        $('.slider-active').slick({
+            infinite: true,
+            autoplay: true,
+            dots: true,
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+        })
+    </script>
+      <script>
+        function menuToggle(){
+            const toggleMenu = document.querySelector('.menu');
+            toggleMenu.classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>

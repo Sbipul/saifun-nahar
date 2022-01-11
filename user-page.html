@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Page</title>
+    <!-- google fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- <link rel="stylesheet" href="./css/ireep-user.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+    <!-- header start -->
+    <header id="home">
+        <!-- middle header -->
+        <div class="middle-header">
+            <div class="container">
+                <div class="middle-menu">
+                    <div class="middle-menu-text">
+                        <i class="fas fa-phone-alt"><a href="#">+27 10 335 1090</a></i>
+                        <i class="far fa-envelope"><a href="#">info@irerep.co.za</a></i>
+                    </div>
+                    <div class="right-middle-menu">
+                        <div class="right-middle-menuber">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>
+
+                            <div class="search-box">
+                                <input type="search" name="" id="">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- bottom header -->
+    
+        <nav class="container bottom header">
+            <div class="logo">
+                <img src="img/logo/logo.png" alt="">
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <ul class="navigation" id="nav">
+                <li><a href="#home">ABOUT</a></li>
+                <li><a href="#services">ELEMENTS</a></li>
+                <li><a href="#about">PRESS</a></li>
+                <li><a href="#work">CONTACT</a></li>
+            </ul>
+            <div class="log-icon">
+                <a href="#" class="header-btn">Logout</a>
+                <img src="img/card-img.png" alt="">
+                <div class="toggleButton" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header end -->
+
+    <!-- .user-area-start -->
+    <div class="user-area">
+        <div class="user-con">
+            <div class="user-fast-box">
+                <div class="user-img">
+                    <img src="img/card-img.png" alt="">
+                </div>
+                <div class="user-containt">
+                    <h3>Name Surname</h3>
+                    <span>company</span>
+                </div>
+            </div>
+        </div>
+        <div class="container wd">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="user-fl">
+                        <div class="user-tab">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                        aria-selected="true">Home</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-profile" type="button" role="tab"
+                                        aria-controls="pills-profile" aria-selected="false">Profile</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-contact" type="button" role="tab"
+                                        aria-controls="pills-contact" aria-selected="false">Contact</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                    aria-labelledby="pills-home-tab">
+                                    <div class="user-tab-fl">
+                                        <div class="tab-area">
+                                            <div class="user-tab-info-box">
+                                                <div class="single-info">
+                                                    <span>Name</span>
+                                                    <p>Fast name</p>
+                                                    <p>Surname</p>
+                                                </div>
+                                                <div class="single-info">
+                                                    <span>Email</span>
+                                                    <p>example@gmail.com</p>
+                                                </div>
+                                                <div class="single-info">
+                                                    <span>Phone</span>
+                                                    <p>011 012 3456</p>
+                                                </div>
+                                                <div class="single-info">
+                                                    <span>Industry</span>
+                                                    <p>Energy</p>
+                                                </div>
+                                                <div class="single-info">
+                                                    <span>Experience</span>
+                                                    <p>8 Years</p>
+                                                </div>
+                                                <div class="single-info">
+                                                    <span>Entity Size</span>
+                                                    <p>Qse</p>
+                                                </div>
+                                            </div>
+                                            <div class="edit">
+                                                <span>Edit</span>
+                                                <i class="fas fa-pencil-alt"></i>
+                                            </div>
+                                        </div>
+                                        <div class="user-tab-info-box">
+                                            <div class="video-fl">
+                                                <div class="video-left">
+                                                    <div class="video-title">
+                                                        <h3>Shared Videos</h3>
+                                                    </div>
+                                                    <div class="upload-fl">
+                                                        <input type="text" placeholder="Upload New Video">
+                                                        <div class="upload-btn">
+                                                            <button type="button">Upload </button>
+                                                            <button type="button" class="acctive">Publish</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="video-box">
+                                                        <iframe width="1264" height="711"
+                                                            src="https://www.youtube.com/embed/Jy4jE4OJavw"
+                                                            title="YouTube video player" frameborder="0"
+                                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                            allowfullscreen></iframe>
+                                                    </div>
+                                                </div>
+                                                <div class="video-right">
+                                                    <div class="video-title">
+                                                        <h3>Business Profile</h3>
+                                                    </div>
+                                                    <div class="up-view">
+                                                        <a href="#">Video/ Update Profile</a>
+                                                    </div>
+                                                    <div class="up-link">
+                                                        <a href="#">Visit Website</a>
+                                                        <i class="fas fa-angle-double-right"></i>
+                                                        <a href="#" class="edit">Edit URL</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                    aria-labelledby="pills-profile-tab">
+
+                                    <div class="user-tab-fl">
+                                        <div class="user-tab-info-box">
+                                            <div class="single-info">
+                                                <span>Name</span>
+                                                <p>Fast name</p>
+                                                <p>Surname</p>
+                                            </div>
+                                            <div class="single-info">
+                                                <span>Name</span>
+                                                <p>Fast name</p>
+                                            </div>
+                                            <div class="single-info">
+                                                <span>Name</span>
+                                                <p>Fast name</p>
+                                            </div>
+                                            <div class="single-info">
+                                                <span>Name</span>
+                                                <p>Fast name</p>
+                                            </div>
+                                            <div class="single-info">
+                                                <span>Name</span>
+                                                <p>Fast name</p>
+                                            </div>
+                                            <div class="single-info">
+                                                <span>Name</span>
+                                                <p>Fast name</p>
+                                            </div>
+                                        </div>
+                                        <div class="user-tab-info-box">
+                                            <div class="video-fl">
+                                                <div class="video-left">
+                                                    <div class="video-title">
+                                                        <h3>Sheared video</h3>
+                                                    </div>
+                                                    <div class="upload-fl">
+                                                        <input type="text" placeholder="upload">
+                                                        <div class="upload-btn">
+                                                            <button type="button">upload</button>
+                                                            <button type="button" class="acctive">upload</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="video-box">
+                                                        <iframe width="1264" height="711"
+                                                            src="https://www.youtube.com/embed/Jy4jE4OJavw"
+                                                            title="YouTube video player" frameborder="0"
+                                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                            allowfullscreen></iframe>
+                                                    </div>
+                                                </div>
+                                                <div class="video-right">
+                                                    <div class="video-title">
+                                                        <h3>Sheared videos</h3>
+                                                    </div>
+                                                    <div class="up-view">
+                                                        <a href="#">Lorem, ipsum.</a>
+                                                    </div>
+                                                    <div class="up-link">
+                                                        <a href="#" class="edit">Edit URL</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                    aria-labelledby="pills-contact-tab">
+
+                                    <div class="user-tab-fl">
+                                        <div class="user-tab-info-box">
+                                            <div class="single-info">
+                                                <span>Name</span>
+                                                <p>Fast name</p>
+                                                <p>Surname</p>
+                                            </div>
+                                            <div class="single-info">
+                                                <span>Name</span>
+                                                <p>Fast name</p>
+                                            </div>
+                                            <div class="single-info">
+                                                <span>Name</span>
+                                                <p>Fast name</p>
+                                            </div>
+                                            <div class="single-info">
+                                                <span>Name</span>
+                                                <p>Fast name</p>
+                                            </div>
+                                            <div class="single-info">
+                                                <span>Name</span>
+                                                <p>Fast name</p>
+                                            </div>
+                                            <div class="single-info">
+                                                <span>Name</span>
+                                                <p>Fast name</p>
+                                            </div>
+                                        </div>
+                                        <div class="user-tab-info-box">
+                                            <div class="video-fl">
+                                                <div class="video-left">
+                                                    <div class="video-title">
+                                                        <h3>Sheared video</h3>
+                                                    </div>
+                                                    <div class="upload-fl">
+                                                        <input type="text" placeholder="upload">
+                                                        <div class="upload-btn">
+                                                            <button type="button">upload</button>
+                                                            <button type="button" class="acctive">upload</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="video-box">
+                                                        <iframe width="1264" height="711"
+                                                            src="https://www.youtube.com/embed/Jy4jE4OJavw"
+                                                            title="YouTube video player" frameborder="0"
+                                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                            allowfullscreen></iframe>
+                                                    </div>
+                                                </div>
+                                                <div class="video-right">
+                                                    <div class="video-title">
+                                                        <h3>Sheared video</h3>
+                                                    </div>
+                                                    <div class="up-view">
+                                                        <a href="#">Lorem, ipsum.</a>
+                                                    </div>
+                                                    <div class="up-link">
+                                                        <a href="#" class="edit">Edit URL</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .user-area-end -->
+
+
+    <!-- footer start -->
+    <footer>
+        <div id="footer-area ">
+            <div class=" footer">
+                <nav class="container footer-hide">
+                    <div class="footer-logo">
+                        <img src="./img/footer-logo.png" alt="">
+                    </div>
+                  
+                    <ul class="footer-navigation" id="footer-nav">
+                        <li><a href="#home">ABOUT</a></li>
+                        <li><a href="#services">ELEMENTS</a></li>
+                        <li><a href="#about">PRESS</a></li>
+                        <li><a href="#work">CONTACT</a></li>
+                    </ul>
+                    <div class="right-middle-menu">
+                        <div class="footer-right-middle-menuber">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                </nav>
+
+                <nav class="container responsive-footer">
+                    <div class="ipad-logo">
+                        <img src="./img/ipad-logo.png" alt="">
+                    </div>
+                    <div class="dropdown">
+                        <div class="toggleButton dropdown-toggle" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="bar4"></div>
+                            <div class="bar5"></div>
+                            <div class="bar6"></div>
+                        </div>
+                        <ul class="dropdown-menu down-menu" aria-labelledby="dropdownMenu2">
+                          <li><button class="dropdown-item fw" type="button">ABOUT</button></li>
+                          <li><button class="dropdown-item fw" type="button">ELEMENTS</button></li>
+                          <li><button class="dropdown-item fw" type="button">PRESS</button></li>
+                          <li><button class="dropdown-item fw" type="button">CONTACT</button></li>
+                        </ul>
+                      </div>
+                </nav>
+            </div>
+        </div>
+        <!-- footer-copyrights -->
+        <div class="copyrights footer-bottom">
+            <div class="copyrights container">
+                <div id="footer-copyrights">
+                    <p>Copyright © 2021 Integrated Renewable Energy and Resource Efficiency Program. All rights
+                        reserved.</p>
+                </div>
+            </div>
+        </div>
+        <a href="#home" id="back-to-top" class="back-to-top" title="home" role="button">
+            <!-- <i class="fa fa-angle-up"></i> -->
+        </a>
+    </footer>
+    <!-- footer end -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
